@@ -1,0 +1,97 @@
+  <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Herby</h4>
+                    <h1 class="display-5 mb-4">Rekomendasi</h1>
+                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/daun.jpeg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4"> Kemiri</a>
+                                <p class="mb-4">Kemiri terutama ditanam untuk bijinya; yang setelah diolah sering digunakan dalam masakan Indonesia dan masakan Malaysia.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="https://id.wikipedia.org/wiki/Kemiri">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/dewa.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Mahkota Dewa</a>
+                                <p class="mb-4">Pohon mahkota dewa atau dalam bahasa Melayu dikenal dengan sebutan pohon simalakama, yang buahnya juga disebut buah simalakama.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="https://id.wikipedia.org/wiki/Mahkota_dewa">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/vanilik.jpg" class="img-fluid rounded-top w-100 h-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Vanili</a>
+                                <p class="mb-4">Vanili adalah tanaman penghasil bubuk vanili yang biasanya dijadikan bahan untuk memberi aroma atau pengharum pada makanan.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="https://id.wikipedia.org/wiki/Vanili">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/cengkehk.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Cengkih</a>
+                                <p class="mb-4">Cengkih atau cengkeh adalah kuncup bunga kering beraroma dari keluarga pohon Myrtaceae. Cengkih adalah tanaman asli Indonesia...
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="https://id.wikipedia.org/wiki/Cengkih">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/kapolk.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Kapulaga</a>
+                                <p class="mb-4">Kapulaga adalah sejenis rempah yang dihasilkan dari biji beberapa tanaman dari genera Elettaria dan Amomum dalam keluarga keluarga jahe-jahean. 
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="https://id.wikipedia.org/wiki/Kapulaga">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/kopi.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Biji Kopi</a>
+                                <p class="mb-4">Kopi adalah tanaman industri pertanian yang dijadikan minuman hasil seduhan biji kopi yang telah disangrai dan dihaluskan menjadi bubuk...
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="https://id.wikipedia.org/wiki/Kopi">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+<a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+<a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+<a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+<a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+<a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+<a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+<a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
