@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ShopingController;
+use App\Http\Controllers\KeranjangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,8 @@ Route::get('/', function () {
     return view('dashboard');
 })->name('dashboard');
 
+Route::resource('keranjang',KeranjangController::class);
+// Route::get('/keranjang', [KeranjangController::class, 'index'])->name('keranjang.index');
 Route::resource('shoping',ShopingController::class);
 // routes/web.php
-Route::get('/shoping', [ShopingController::class, 'index'])->name('shoping.index');
+// Route::get('/shoping', [ShopingController::class, 'index'])->name('shoping.index');

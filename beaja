@@ -95,3 +95,369 @@
 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+
+<div class="col-md-6 col-lg-6 col-xl-2">
+    <div class="footer-item">
+        <h4 class="text-white mb-4">Quick Links</h4>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
+    </div>
+</div>
+<div class="col-md-6 col-lg-6 col-xl-3">
+    <div class="footer-item">
+        <h4 class="text-white mb-4">Support</h4>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> Disclaimer</a>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> Support</a>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
+        <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
+    </div>
+</div>
+
+
+<nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+    <a href="" class="navbar-brand p-0">
+        <h1 class="text-primary"><i class="fas fa-leaf me-3"></i>Herby</h1>
+        <!-- <img src="img/logo.png" alt="Logo"> -->
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="fa fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-0">
+            <a href="{{route('dashboard')}}" class="nav-item nav-link active">Home</a>
+            <a href="{{route('dashboard')}}#about" class="nav-item nav-link">About</a>
+            <a href="{{route('dashboard')}}#resep" class="nav-item nav-link">Ramuan Herbal</a>
+            <div class="nav-item dropdown">
+                <a href="{{route('shoping.index')}}" class="nav-link" data-bs-toggle="dropdown">
+                    <span class="dropdown-toggle">Shopping</span>
+                </a>
+                <div class="dropdown-menu m-0">
+                    <a href="{{ route('shoping.index') }}" class="dropdown-item">Semua kategori</a>
+                    <a href="{{ route('shoping.index') }}#tanaman" class="dropdown-item">Tanaman & Pohon</a>
+                    <a href="{{ route('shoping.index') }}#buah" class="dropdown-item">Biji - bijian & buah</a>
+                    <a href="{{ route('shoping.index') }}#bunga" class="dropdown-item">Bunga</a>
+                </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+        </div>
+        <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get Started</a>
+    </div>
+</nav>
+
+<!-- Carousel Start -->
+<div class="header-carousel owl-carousel">
+    <div class="header-carousel-item">
+        <img src="img/padi.jpg" class="img-fluid w-100" alt="Image">
+        <div class="carousel-caption">
+            <div class="container">
+                <div class="row gy-0 gx-5">
+                    <div class="col-lg-0 col-xl-5"></div>
+                    <div class="col-xl-7 animated fadeInLeft">
+                        <div class="text-sm-center text-md-end">
+                            <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Herby</h4>
+                            <h1 class="display-4 text-uppercase text-white mb-4">Hasil alam yang alami</h1>
+                            <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
+                            </p>
+                          
+                            <div class="d-flex align-items-center justify-content-center justify-content-md-end">
+                                <h2 class="text-white me-2">Follow Us:</h2>
+                                <div class="d-flex justify-content-end ms-2">
+                                    <a class="btn btn-md-square btn-light rounded-circle me-2" href="https://www.facebook.com/pangrumasan.co"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://www.instagram.com/desa_pangrumasan/"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-md-square btn-light rounded-circle ms-2" href="https://klipaa.com/profil_desa/3205100001/profil"><i class="fab fa-chrome"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-carousel-item">
+        <img src="img/budak.jpg" class="img-fluid w-100" alt="Image">
+        <div class="carousel-caption">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-12 animated fadeInUp">
+                        <div class="text-center">
+                            <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Herby</h4>
+                            <h1 class="display-4 text-uppercase text-white mb-4">bermanfaat bagi manusia berbagai umur</h1>
+                            <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
+                            </p>
+                            
+                            <div class="d-flex align-items-center justify-content-center">
+                                <h2 class="text-white me-2">Follow Us:</h2>
+                                <div class="d-flex justify-content-end ms-2">
+                                <a class="btn btn-md-square btn-light rounded-circle me-2" href="https://www.facebook.com/pangrumasan.co"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://www.instagram.com/desa_pangrumasan/"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-md-square btn-light rounded-circle ms-2" href="https://klipaa.com/profil_desa/3205100001/profil"><i class="fab fa-chrome"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-carousel-item">
+        <img src="img/duar.jpg" class="img-fluid w-100" alt="Image">
+        <div class="carousel-caption">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-12 animated fadeInUp">
+                        <div class="text-center">
+                            <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Herby</h4>
+                            <h1 class="display-4 text-uppercase text-white mb-4">Lestarikan sumber daya alam</h1>
+                            <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
+                            </p>
+                      
+                            <div class="d-flex align-items-center justify-content-center">
+                                <h2 class="text-white me-2">Follow Us:</h2>
+                                <div class="d-flex justify-content-end ms-2">
+                                <a class="btn btn-md-square btn-light rounded-circle me-2" href="https://www.facebook.com/pangrumasan.co"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-md-square btn-light rounded-circle mx-2" href="https://www.instagram.com/desa_pangrumasan/"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-md-square btn-light rounded-circle ms-2" href="https://klipaa.com/profil_desa/3205100001/profil"><i class="fab fa-chrome"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Carousel End -->
+
+ <!-- About Start -->
+ <div class="container-fluid faq-section pb-5">
+    <div id="about" class="container pb-5 overflow-hidden">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">About</h4>
+            <h1 class="display-5 mb-4">Tentang Kami</h1>
+            <p class="mb-0">Herby Mengacu pada kualitas atau karakteristik yang berasal dari tanaman herbal atau rempah-rempah, dan digunakan untuk menggambarkan sesuatu yang memiliki aroma, rasa, atau manfaat yang terkait dengan tanaman herbal.
+            </p>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushSection">
+                    <div class="accordion-item rounded-top">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Apa itu Herby?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Berbagai hasil alam yang mendunia
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Usaha dari salah satu desa di pelosok negeri
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            What Is Online Trading, And How Dose It Work?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Berbagai hasil alam yang mendunia
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item rounded-bottom">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Tersedia obat herbal untuk berbagai umur
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="bg-primary rounded">
+                    <img src="img/hihih.png" class="img-fluid w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Keranjang;
+use Illuminate\Http\Request;
+
+class KeranjangController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        $keranjang = Keranjang::all();
+        return view('keranjang.index', compact('keranjang'));
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        return view('keranjang.create');
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
+        $request->validate([
+            'nama'=> 'required',
+            'nm_barang'=>'required',
+            'jumlah' => 'required',
+            'alamat' => 'required',
+        ],[
+            'nama.required' => 'Nama wajib diisi',
+            'nm_barang.required' => 'Nama barang wajib diisi',
+            'jumlah.required' => 'Jumlah wajib diisi',
+            'alamat.required' => 'Alamat wajib diisi',
+        ]);
+        Keranjang::create([
+            'nama' =>$request->input('nama'),
+            'nm_barang' =>$request->input('nm_barang'),
+            'jumlah' =>$request->input('jumlah'),
+            'alamat' =>$request->input('alamat'),
+        ]);
+        
+        return redirect('keranjang')->with('success', 'Keranjang berhasil dimasukkan');
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  \App\Models\Keranjang  $keranjang
+     * @return \Illuminate\Http\Response
+     */
+    public function show(Keranjang $keranjang)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  \App\Models\Keranjang  $keranjang
+     * @return \Illuminate\Http\Response
+     */
+    public function edit(Keranjang $keranjang)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\Keranjang  $keranjang
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, Keranjang $keranjang)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  \App\Models\Keranjang  $keranjang
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(Keranjang $keranjang)
+    {
+        //
+    }
+}
+
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Keranjang extends Model
+{
+     /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    use HasFactory;
+    protected $table = 'keranjang';
+    protected $fillable = [
+        'nama',
+        'nm_barang',
+        'jumlah',
+        'alamat',
+    ];
+   
+}
+<nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+    <a href="" class="navbar-brand p-0">
+        <h1 class="text-primary"><i class="fas fa-leaf me-3"></i>Herby</h1>
+        <!-- <img src="img/logo.png" alt="Logo"> -->
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="fa fa-bars"></span>
+    </button>
+
+</nav>
+
+<!-- Carousel Start -->
+
+<!-- Carousel End -->
